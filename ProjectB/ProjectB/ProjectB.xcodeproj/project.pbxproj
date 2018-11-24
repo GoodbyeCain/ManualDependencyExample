@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516C362021A93B2400C8D024 /* ProjectC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516C361F21A93B2400C8D024 /* ProjectC.framework */; };
 		6DEBE5931DDDEFE000000324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEBE5921DDDEFE000000324 /* AppDelegate.swift */; };
 		6DEBE5951DDDEFE000000324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEBE5941DDDEFE000000324 /* ViewController.swift */; };
 		6DEBE5981DDDEFE000000324 /* ProjectBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEBE5961DDDEFE000000324 /* ProjectBMain.storyboard */; };
@@ -18,7 +19,6 @@
 		6DEBE5DA1DDDF09000000324 /* ProjectB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEBE5D11DDDF09000000324 /* ProjectB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6DEBE5E01DDDF0B200000324 /* ProjectBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEBE5961DDDEFE000000324 /* ProjectBMain.storyboard */; };
 		6DEBE5EF1DDDF7AD00000324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEBE5941DDDEFE000000324 /* ViewController.swift */; };
-		6DEBE6541DDDFDE700000324 /* ProjectC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEBE6531DDDFDE700000324 /* ProjectC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +60,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		516C361F21A93B2400C8D024 /* ProjectC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProjectC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEBE58F1DDDEFE000000324 /* ProjectBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEBE5921DDDEFE000000324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DEBE5941DDDEFE000000324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +77,6 @@
 		6DEBE5D11DDDF09000000324 /* ProjectB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEBE5D41DDDF09000000324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DEBE5EE1DDDF78A00000324 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		6DEBE6531DDDFDE700000324 /* ProjectC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectC.framework; path = "../../Build/Products/Debug-iphonesimulator/ProjectC.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DEBE6541DDDFDE700000324 /* ProjectC.framework in Frameworks */,
+				516C362021A93B2400C8D024 /* ProjectC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 		6DEBE6521DDDFDE600000324 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6DEBE6531DDDFDE700000324 /* ProjectC.framework */,
+				516C361F21A93B2400C8D024 /* ProjectC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -282,7 +282,8 @@
 				TargetAttributes = {
 					6DEBE58E1DDDEFE000000324 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = SRDD5RQ9SK;
+						ProvisioningStyle = Manual;
 					};
 					6DEBE5A21DDDEFE000000324 = {
 						CreatedOnToolsVersion = 8.1;
@@ -528,10 +529,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SRDD5RQ9SK;
 				INFOPLIST_FILE = ProjectB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ProjectB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wildcardApp;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -541,10 +545,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProjectB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ProjectB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -666,6 +673,7 @@
 				6DEBE5B91DDDEFE000000324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DEBE5BA1DDDEFE000000324 /* Build configuration list for PBXNativeTarget "ProjectBTests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +682,7 @@
 				6DEBE5BC1DDDEFE000000324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DEBE5BD1DDDEFE000000324 /* Build configuration list for PBXNativeTarget "ProjectBUITests" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +691,7 @@
 				6DEBE5BF1DDDEFE000000324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DEBE5DB1DDDF09000000324 /* Build configuration list for PBXNativeTarget "ProjectB" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +700,7 @@
 				6DEBE5DD1DDDF09000000324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

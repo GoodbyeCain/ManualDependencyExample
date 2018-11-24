@@ -274,7 +274,8 @@
 				TargetAttributes = {
 					6DEBE5F91DDDFB6900000324 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = SRDD5RQ9SK;
+						ProvisioningStyle = Manual;
 					};
 					6DEBE60D1DDDFB6900000324 = {
 						CreatedOnToolsVersion = 8.1;
@@ -522,6 +523,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SRDD5RQ9SK;
 				INFOPLIST_FILE = ProjectC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -530,7 +533,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ProjectC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = wildcardApp;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -539,6 +543,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProjectC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -547,7 +553,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ProjectC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -621,7 +628,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ProjectC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -643,7 +650,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ProjectC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};

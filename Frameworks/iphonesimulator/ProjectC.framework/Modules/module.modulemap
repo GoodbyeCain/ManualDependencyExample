@@ -1,0 +1,4 @@
+framework module ProjectC {
+  header "ProjectC-Swift.h"
+  requires objc
+}

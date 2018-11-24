@@ -7,9 +7,10 @@ function current_branch {
 
 IFS=","
 while read name repo revision; do
-  if [ -d "$name" ]; then
-    continue
-  fi
+  echo $name
+  echo $repo
+  echo $revision
+  echo "here"
   git clone $repo $name
   pushd $name
   git pull --tags

@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/ObjectMapper-Swift.h</key>
 		<data>
-		xdGV6y7g7JxExjKmnkMj4DF9tlo=
+		u4scvZqs+EPRpc4CG01EdhMGZi4=
 		</data>
 		<key>Headers/ObjectMapper.h</key>
 		<data>
-		u5utmhBChTbBkgHlHrwMnGUM+QE=
+		ISvEw+tbYbuxpM/yA/NDn1qyB74=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TjmYHpGAV5EGXcV/exCofGdextg=
+		80TS44dJensZ+TuJ6o0NS8LDE9o=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftdoc</key>
 		<data>
-		kNhHaDPC8qEArEmjHobM1o7uyOQ=
+		H1PEIYkmCV7eU5cOCasqVMZAOsY=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftmodule</key>
 		<data>
-		fFUmv01PRO5MVjMReOOgsVhVX70=
+		sCZG0oYsTJn8RBaLMkxE/Ifro90=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Xojim5bHiaLkLN8RysNV912Jh0Q=
+		wsTZF3jKhT2Wp6Q2J4TVTgyPE14=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		i11sE1Av6bOVCTUWMo/VKnIWXIs=
+		sbS9J0Ugc/vm9PaG4OWDitlYFyo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		eHWh6HDKem528C+DpG1p4LlXzvg=
+		sZiL0gFBxdxN3ojd2wmTNUePYpk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,83 +43,83 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xdGV6y7g7JxExjKmnkMj4DF9tlo=
+			u4scvZqs+EPRpc4CG01EdhMGZi4=
 			</data>
 			<key>hash2</key>
 			<data>
-			JknOEWPQw5rITehbZtubGElw59+hVDaUEmHZfOn0OGk=
+			nZoP6CTlkVKmLfhZ6gdy93r+7t/DTH7zkMl3XpnDQ4o=
 			</data>
 		</dict>
 		<key>Headers/ObjectMapper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u5utmhBChTbBkgHlHrwMnGUM+QE=
+			ISvEw+tbYbuxpM/yA/NDn1qyB74=
 			</data>
 			<key>hash2</key>
 			<data>
-			d8yQ8UiNODfrcbf0aNAH+X7q483rJMnFCQnLK3z+y5Y=
+			7TPOCM+/HwnWqO558qtluQgFh0axbWoZxDVKcGQJH5w=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kNhHaDPC8qEArEmjHobM1o7uyOQ=
+			H1PEIYkmCV7eU5cOCasqVMZAOsY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qhdFdaK+GzuNUzmxEa6yzB+DK8UOzu6JgU0xkXumKCA=
+			170LxLLjT8IskfIZQYUPlAvCkg5KBPdbYgYdjRsrmc0=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fFUmv01PRO5MVjMReOOgsVhVX70=
+			sCZG0oYsTJn8RBaLMkxE/Ifro90=
 			</data>
 			<key>hash2</key>
 			<data>
-			r+mwNlhEEwpF5rvLGf3tT5MYoTxgWfLgxv6gFz9DBJU=
+			79rYAPApbNu8W43QYFP9KPQYWXdtKyES5Qxj3ZTjcmE=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xojim5bHiaLkLN8RysNV912Jh0Q=
+			wsTZF3jKhT2Wp6Q2J4TVTgyPE14=
 			</data>
 			<key>hash2</key>
 			<data>
-			eEOAg5jEDoqZwed41GfPbt0cLqrHi5yMpt/FwWG+SbU=
+			B0qIqRl/aFS99ShrMMheDQJNfrqTNAvtpwjk9KSC0Dw=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i11sE1Av6bOVCTUWMo/VKnIWXIs=
+			sbS9J0Ugc/vm9PaG4OWDitlYFyo=
 			</data>
 			<key>hash2</key>
 			<data>
-			JdPSxRT3TTLEQKoFxajulKLvNt+yqW12e94mPSFYIKw=
+			5p3LBICMGIXhi7e5u8sbT4ZPXcC/2r5rS96UHA4Q6NY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eHWh6HDKem528C+DpG1p4LlXzvg=
+			sZiL0gFBxdxN3ojd2wmTNUePYpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0I1Zl9HmkmAP4pA/kuLWReZniXh8QoadypfSrV/i4sU=
+			/YzwbVyV3KL9fKWEzidmvrlsfEm2ZGQd1X/QGHgNPk0=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -150,24 +150,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -203,13 +191,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

@@ -300,7 +300,7 @@
 		6DEBE4F91DDDC39800000324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DEBE4FF1DDDC39900000324 /* ProjectA.app */,
+				6DEBE4FF1DDDC39900000324 /* ProjectADemo.app */,
 				6DEBE5011DDDC39900000324 /* ProjectATests.xctest */,
 				6DEBE5031DDDC39900000324 /* ProjectAUITests.xctest */,
 				6DEBE5211DDDC55700000324 /* libProjectAObjc.a */,
@@ -322,7 +322,7 @@
 		6DEBE5C11DDDEFE000000324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DEBE5C71DDDEFE100000324 /* ProjectB.app */,
+				6DEBE5C71DDDEFE100000324 /* ProjectBDemo.app */,
 				6DEBE5C91DDDEFE100000324 /* ProjectBTests.xctest */,
 				6DEBE5CB1DDDEFE100000324 /* ProjectBUITests.xctest */,
 				6DEBE5E31DDDF0D100000324 /* ProjectB.framework */,
@@ -333,7 +333,7 @@
 		6DEBE62C1DDDFB6900000324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DEBE6321DDDFB6A00000324 /* ProjectC.app */,
+				6DEBE6321DDDFB6A00000324 /* ProjectCDemo.app */,
 				6DEBE6341DDDFB6A00000324 /* ProjectCTests.xctest */,
 				6DEBE6361DDDFB6A00000324 /* ProjectCUITests.xctest */,
 				6DEBE64D1DDDFC7900000324 /* ProjectC.framework */,
@@ -421,9 +421,9 @@
 				TargetAttributes = {
 					6DEBE4751DDDC06C00000324 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = AM644NVCRJ;
+						DevelopmentTeam = SRDD5RQ9SK;
 						LastSwiftMigration = 0810;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					6DEBE4911DDDC06C00000324 = {
 						CreatedOnToolsVersion = 8.1;
@@ -474,7 +474,7 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6DEBE4FF1DDDC39900000324 /* ProjectA.app */ = {
+		6DEBE4FF1DDDC39900000324 /* ProjectADemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = ProjectADemo.app;
@@ -509,7 +509,7 @@
 			remoteRef = 6DEBE53E1DDDD00100000324 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6DEBE5C71DDDEFE100000324 /* ProjectB.app */ = {
+		6DEBE5C71DDDEFE100000324 /* ProjectBDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = ProjectBDemo.app;
@@ -537,7 +537,7 @@
 			remoteRef = 6DEBE5E21DDDF0D100000324 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6DEBE6321DDDFB6A00000324 /* ProjectC.app */ = {
+		6DEBE6321DDDFB6A00000324 /* ProjectCDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = ProjectCDemo.app;
@@ -608,7 +608,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/EmbedFrameworksScript.sh\"";
+			shellScript = "\"${SRCROOT}/EmbedFrameworksScript.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -792,13 +792,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = AM644NVCRJ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SRDD5RQ9SK;
 				INFOPLIST_FILE = MainProject/Info.plist;
 				INSTALL_GROUP = "";
 				INSTALL_OWNER = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.MainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wildcardApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "MainProject/MainProject-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -814,13 +816,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = AM644NVCRJ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MainProject/Info.plist;
 				INSTALL_GROUP = "";
 				INSTALL_OWNER = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.MainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MainProject/MainProject-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
